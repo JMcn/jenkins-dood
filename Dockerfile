@@ -1,4 +1,4 @@
-FROM jenkins:latest
+FROM ubuntucore/jenkins-ubuntu:latest
 
 USER root
 RUN apt-get update \
